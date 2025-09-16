@@ -84,16 +84,16 @@ input.onGesture(Gesture.Shake, () => {
     basic.clearScreen()
     let randomNumber = randint(0, 4)
     if (randomNumber == 4) {
-        basic.showString("DEFINATELY")
+        basic.showString("Possible but impossible")
     } else if (randomNumber == 3) {
-        basic.showString("TRY AGAIN")
+        basic.showString("No, just no")
     } else if (randomNumber == 2) {
-        basic.showString("YES")
+        basic.showString("I don't know about Football knowledge")
     } else if (randomNumber == 1) {
-        basic.showString("NO")
+        basic.showString("Please don't ask that question")
     }
     else {
-        basic.showString("I DON'T KNOW")
+        basic.showString("Maybe or maybe not")
     }
     basic.showNumber(8)
 })
